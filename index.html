@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INPO Web</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONT STYLE AWAL -->
+    <!-- font awal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT STYLE AKHIR -->
+  </head>
+  <body>
+    <!-- NAVBAR AWAL -->
+    <nav class="navbar">
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#anggota">Anggota</a>
+        <a href="#cerita">Cerita</a>
+      </div>
+    </nav>
+    <!-- NAVBAR AKHIR -->
+
+    <!-- HERO SECTION AWAL -->
+  <section class="hero" id="home">
+    <main class="inpo">
+    <h1>INPO</h2>
+      <p>Sahabat untuk selamanya berbagi dan saling menjaga kau dan aku sahabat</p>
+      <p>untuk selamanya setia.</p>
+    </main>
+  </section>
+    <!-- HERO SECTION AKHIR -->
+
+    <!-- ANGGOTA SECTION AWAL-->
+    <section class="anggota" id="anggota">
+      <h2>Anggota</h2>
+      <p>Pasukan wedi luwe</p>
+      <section class="hero-section">
+        <div class="card-container">
+        <div class="card">
+          <div class="card-background" style="background-image: url(img/anggota/johan.jpg);"></div>
+          <div class="content">
+            <div class="card-category">Mbombot</div>
+            <h3 class="card-heading">Johan wahyu saputro</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-background" style="background-image: url(img/anggota/reza.jpg);"></div>
+          <div class="content">
+            <div class="card-category">Rezot</div>
+            <h3 class="card-heading">Nur reza fiqron raharjo</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-background" style="background-image: url(img/anggota/rizal.jpg);"></div>
+          <div class="content">
+            <div class="card-category">Rizul</div>
+            <h3 class="card-heading">Rizal ngabdul yazid</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-background" style="background-image: url(img/anggota/isan.jpg);"></div>
+          <div class="content">
+            <div class="card-category">Isun</div>
+            <h3 class="card-heading">Ikshan ramadhani</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-background" style="background-image: url(img/anggota/adi.jpg);"></div>
+          <div class="content">
+            <div class="card-category">Senggok</div>
+            <h3 class="card-heading">Adi cahyono</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    </section>
+    <!-- ANGGOTA SECTION AKHIR-->
+
+    <!-- CERITA SECTION AWAL -->
+    <section class="cerita" id="cerita">
+
+      <h2>Cerita</h2>
+      <p>belum kompatibel masih belajar database</p>
+
+  <!-- FOTO PERTAMA -->
+    <div class="container-img" id="imgBox">
+      <div id="prevText" class="prevtext"></div>
+      <textarea id="textBox" class="textbox" placeholder="Tulis kata disini:"></textarea>
+
+      <input type="file" accept="image/*" name="image" id="file" style="display: none;" onchange="loadFile(event)">
+      <label for="file"><img src="img/upload.png" class="upload-icon"></label>
+    </div>
+
+  <!-- FOTO KEDUA -->
+  <div class="container-img" id="imgBox1">
+      <div id="prevText1" class="prevtext"></div>
+      <textarea id="textBox1" class="textbox" placeholder="Tulis kata disini:"></textarea>
+
+      <input type="file" accept="image/*" name="image" id="file1" style="display: none;" onchange="loadFile1(event)">
+      <label for="file1"><img src="img/upload.png" class="upload-icon"></label>
+  </div>
+
+    </section>
+    <!-- CERITA SECTION AKHIR -->
+
+    <!-- FOOTER AWAL -->
+    <footer>
+    <div class="credit">
+      <p>
+        Created by
+        <a href="https://www.instagram.com/jws.ws/">johanwahyus</a>. | &copy;
+        2023.
+      </p>
+    </div>
+  </footer>
+    <!-- FOOTER AKHIR -->
+    
+<script src="java.js"></script>
+  </body>
+</html>
