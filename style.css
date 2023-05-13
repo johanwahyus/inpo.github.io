@@ -349,6 +349,13 @@ html {
 }
 
 /* MEDIA HP */
-@media (max-width: 450px){html {
+@media (max-width: 450px){
+  html {
   font-size: 55%;
-}}
+}
+
+.card-container {
+  margin-right: 7.5rem;
+}
+
+}
